@@ -1,0 +1,33 @@
+{
+  "name": "optimizify",
+  "version": "0.0.0",
+  "description": "Browserify transform for optimize-js",
+  "keywords": [
+    "browserify",
+    "transform",
+    "browserify-transform",
+    "optimize-js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scienceai/optimizify.git"
+  },
+  "author": {
+    "name": "Robin Berjon",
+    "email": "robin@berjon.co",
+    "url": "http://berjon.com/"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "optimize-js": "1.0.0",
+    "through2": "0.6.3"
+  },
+  "devDependencies": {
+    "browserify": "13.1.0",
+    "mocha": "3.0.2"
+  }
+}
