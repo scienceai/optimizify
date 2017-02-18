@@ -23,7 +23,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "optimize-js": "1.0.0",
+    "optimize-js": "^1.0.0",
     "through2": "0.6.3"
   },
   "devDependencies": {
