@@ -18,7 +18,7 @@ You can prevent files from being optimized by passing a filter RegExp or string
 ``` javascript
 var bundler = browserify('index.js')
 
-bundler.transform('optimizify', { filter: /.json/ })
+bundler.transform('optimizify', { filter: /\.json/ })
   .bundle()
   .pipe(process.stdout)
 ```
