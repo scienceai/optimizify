@@ -6,6 +6,7 @@ var through2 = require('through2')
 function optimizify (file, options) {
     options = options || {};
     var filter = options.filter;
+    if (typeof filter === 'string') { filter = new RegExp(filter); }
     if (filter && !filter.test(file)) return through2();
 
     return through2(
